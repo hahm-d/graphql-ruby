@@ -15,4 +15,4 @@ module Mutations
         GraphQL::ExecutionError.new("Invalid input: #{e.record.errors.full_messages.join(', ')}")
       end
     end
-end
+  end
